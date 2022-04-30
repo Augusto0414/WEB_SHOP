@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(15, 17, 26);
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: rgb(12, 14, 21);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 9rem;
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5rem;
+}
+.nav__list {
+  list-style: none;
+  padding: 0 2rem;
+}
+
+.nav__list--activo {
+  border: 2px solid rgb(48, 89, 215);
+  border-radius: 9px;
+  padding: 9px;
+  position: relative;
+  left: 40px;
+  box-shadow: 0px 0px 10px 0px rgb(48, 89, 215);
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+}
+.nav__links:hover {
+  cursor: pointer;
+border-bottom: 0.5px solid rgb(48, 89, 215);
+}
+.nav__link:visited {
+  color: #fff;
+}
+
+/* Main*/
+.content {
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content__text {
+  width: 60%;
+  padding: 0 9rem;
+}
+.content__paragraph {
+  font-size: 1.4rem;
+  padding: 2rem 0;
+}
+.content__logo {
+  width: 50%;
+  height: 50%;
+  padding: 9rem 4rem;
+  position: relative;
+  bottom: -5rem;
+}
+.content__img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 50% 0;
+}
+.search__input {
+  width: 60%;
+  height: 50px;
+  border-radius: 0.5rem;
+  border: 3px solid #fff;
+  outline: none;
+}
+.search__input:focus {
+  border: 3px solid rgb(48, 89, 215);
+}
+.search__button {
+  color: #fff;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  background-color: transparent;
+  border: 2px solid rgb(48, 89, 215);
+  box-shadow: 0 0 10px rgb(48, 89, 215);
+}
+.premiun{
+  position: relative;
+  bottom: -4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.premiun__number {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.premiun__text {
+  font-size: 1rem;
+}
+.bx {
+  color: rgb(48, 89, 215);
+}
